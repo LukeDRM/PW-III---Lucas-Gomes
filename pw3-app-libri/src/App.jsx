@@ -1,26 +1,13 @@
 
 import './App.css'
 import CardBooks from './components/CardBooks'
+import NavBar from './components/layout/NavBar'
 
 function App() {
 
   return (
-    <>
-      <div>
-        <CardBooks
-          titulo = 'Percy Jackson: A Maldição do Titã'
-          autor = 'Rick Riordan'
-        />
-        <CardBooks
-          titulo = 'Percy Jackson: O Ladrão de Raios'
-          autor = 'Rick Riordan'
-        />
-        <CardBooks
-          titulo = 'Percy Jackson: O Mar de Monstros'
-          autor = 'Rick Riordan'
-        />
-      </div>
-    </> 
+  
+<NavBar/>
   )
 }
 
