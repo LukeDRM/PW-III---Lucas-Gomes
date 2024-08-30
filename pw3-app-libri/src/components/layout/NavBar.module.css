@@ -4,6 +4,7 @@
     justify-content: space-between;
     background-color: #000154;
     padding:1em;
+
 }
 
 /* REGRAS DA LISTA DE LINKS*/
@@ -16,10 +17,11 @@
 
 /* REGRAS DOS LINKS*/
 .item{
-    margin-right:1em;
-    color: #fff;;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
+    margin-right:0 10px;
+    color: #fff;
+    font-family: Impact, fantasy;
+    font-size:large;
+    padding: 10px 20px;
 }
 .item:hover{
     color: red;
@@ -27,6 +29,6 @@
 }
 
 .logo{
-    width: 40px;
-    margin-top: 20px;
+    width: 30px;
+    margin-top: 15px;
 }
