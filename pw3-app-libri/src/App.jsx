@@ -3,7 +3,7 @@ import './App.css'
 import NavBar from './components/layout/NavBar'
 import Container from './components/layout/Container'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './components/pages/Home'
+import Home from './components/pages/Home'  
 import CreateBooks from './components/pages/CreateBooks'
 import ListBooks from './components/pages/ListBooks'
 

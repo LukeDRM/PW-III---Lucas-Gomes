@@ -4,12 +4,12 @@ import style from "./Home.module.css";
 const Home = ()=>{
 
     return(
-        
+            
     
         <section className = {style.home_container}>
             <h1>Bem vindo ao <span> LIBRI</span></h1>
             <p> sua plataforma web de gestão de livros!</p>
-            <img src ="./book_home.jpg"/>
+            <img className = {style.home_container} src ="./book_home.jpg"/>
         </section>
 
     )
