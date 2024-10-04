@@ -3,9 +3,9 @@ import styles from './Select.module.css'
 function Select({ text, name, options }) {
     return (
         <div className={styles.form_control}>
-            <label htmlFor={name}>{name}</label>
-            <select name={name}>{name}
+            <label htmlFor={name}>{text}</label>
 
+            <select name={name}>{name}
 
                 <option>Selecione uma categoria</option>
                 {

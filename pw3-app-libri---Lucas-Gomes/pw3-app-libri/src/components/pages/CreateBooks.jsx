@@ -81,7 +81,7 @@ const CreateBooks = () => {
 
 
         <section className={style.create_books_container}>
-            <form> submit = {submit}
+            <form onSubmit={submit}>
                 <Input
                     type='text'
                     name='nome_livro'
@@ -91,7 +91,7 @@ const CreateBooks = () => {
                 />
                 <Input
                     type='text'
-                    name='autor_liivro'
+                    name='autor_livro'
                     placeHolder='Digite o nome do autor'
                     text='Autor do livro'
                     handlerChangeBook={handlerChangeBook}
